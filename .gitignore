@@ -15,9 +15,17 @@ __pycache__/
 # Logs
 *.log
 
-# Data uploads (large CSVs)
+# opencode skills (downloaded from registry)
+.opencode/skills/
+
+# Data
 data/uploads/
 data/archive/
+data/traffic.db
+
+# Trained models (auto-generated)
+models/*.pkl
+models/*_meta.json
 
 # IDE settings
 .vscode/
